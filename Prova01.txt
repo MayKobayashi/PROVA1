@@ -1,0 +1,17 @@
+n1 = int(input("Informe o primeiro número: "))
+n2 = int(input("Informe o segundo número: "))
+n3 = int(input("Informe o terceiro número: "))
+
+if (n1 and n2 > n3):
+    primeiro_numero = n1
+    segundo_numero = n2
+elif (n2 and n3 > n1):
+    primeiro_numero = n2
+    segundo_numero = n3
+else:
+    primeiro_numero = n1
+    segundo_numero = n3
+    
+media = ((primeiro_numero + segundo_numero) / 2)
+
+print(f"A média aritmética entre os dois maiores valores é {media}")
